@@ -1,0 +1,10 @@
+n = input('Qual a sua informação?')
+
+print('n é uma string?')
+print(n.isalpha())
+print('n é um número?')
+print(n.isnumeric())
+print('n é um caractere alfa-númerico?')
+print(n.isalnum())
+print('n é um número decimal?')
+print(n.isdecimal())
